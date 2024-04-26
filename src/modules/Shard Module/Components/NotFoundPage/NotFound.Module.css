@@ -1,0 +1,46 @@
+.bg-notfound{
+    background-image: url(./img/Vector.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .bg-notfound .notFoundInfo h3{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+    color: rgba(31, 38, 62, 1);
+  }
+  .bg-notfound .notFoundInfo h6{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: left;
+    color: rgba(0, 146, 71, 1);
+
+  } 
+  .bg-notfound .notFoundInfo p{
+    font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: rgba(31, 38, 62, 1);
+
+  }
+  .bg-notfound .notFoundInfo button{
+ 
+
+border-radius: 8px ;
+background-color: rgba(0, 146, 71, 1);
+
+  }
+@media screen and (max-width:846px) {
+    .notfoundContainer{
+        flex-direction: column !important;
+    }
+}
+

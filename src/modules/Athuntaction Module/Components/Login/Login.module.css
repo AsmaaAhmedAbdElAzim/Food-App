@@ -1,0 +1,53 @@
+h3{
+font-family: 'Inter';
+font-size: 25px;
+font-weight: 700;
+line-height: 30.26px;
+text-align: left;
+color: rgba(73, 73, 73, 1);
+
+}
+p{
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+color: rgba(73, 73, 73, 1);
+
+}
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.forget{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: right;
+color: rgba(74, 163, 90, 1);
+
+}
+.register{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: rgba(73, 73, 73, 1) !important;
+}
+
+button{
+ width: 100%;
+ padding: 10px;
+ border: 1px solid rgba(74, 163, 90, 1) ;
+border-radius: 8px !important;
+background-color: rgba(74, 163, 90, 1);
+color: white;
+
+
+}
+img{
+    width: 35%;
+}
