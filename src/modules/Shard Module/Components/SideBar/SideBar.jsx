@@ -4,7 +4,7 @@ import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import togelar from '../../../../img/3.png'
 
 export default function SideBar() {
-  let [isColapsed , setIsColapsed]=useState(false);
+  let [isColapsed , setIsColapsed]=useState(true);
   const toggelerCollaps = ()=>{
     setIsColapsed(!isColapsed)
   }
